@@ -1,0 +1,70 @@
+#pause {
+  display: none;
+}
+
+.dial {
+  height: 400px;
+  width: 400px;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  height: 11vh;
+  width: 100vw;
+}
+
+* {
+  font: inherit;
+}
+
+body {
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.timer input {
+  background: none;
+  border: none;
+  display: block;
+  width: 240px;
+  font-size: 80px;
+  color : #fff;
+  text-align: center;
+}
+
+.timer button {
+  display: none;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.timer button:focus {
+  outline: none;
+  border: none;
+}
+
+.timer input:focus input:hover {
+  outline: none;
+  
+}
+
+.controls {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+svg {
+  display:none;
+}

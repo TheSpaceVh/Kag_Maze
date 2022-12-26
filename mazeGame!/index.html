@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.18.0/matter.min.js"></script>
+  <link rel="stylesheet" href="./Timer/timerStyle.css">
+  <link rel="stylesheet" href="style.css">
+  <title>The Maze Game!</title>
+</head>
+<body>
+
+  <div id="lose" class="win-lose-gif hidden">
+    <img src="https://c.tenor.com/5eLr04PIMJgAAAAC/kaguya-kaguya-sama.gif" alt="Kaguya says 'How Cute'">
+  </div>
+
+  <div id="win" class="win-lose-gif hidden">
+    <img src="https://c.tenor.com/DFiy9xMYmPwAAAAC/happy-kaguya.gif" alt="Happy Kaguya!">
+    <audio id="anime-gj" src="./audio/good-job_d15pHHg.mp3"></audio>
+  </div>
+
+  <div class="timer">
+      <input readonly id="duration" value="3" />
+  </div>
+  
+  <script src="index.js"></script>
+  <script src="./Timer/timer.js"></script>
+  <script src="./Timer/app.js"></script>
+</body>
+</html>
